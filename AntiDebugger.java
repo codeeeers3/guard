@@ -8,7 +8,7 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdvancedAntiDebug {
+public class AntiDebugger {
 
     private static final List<String> DEBUGGER_PROCESSES = List.of(
         "jdb", "jstack", "jmap", "jinfo", "hprof", "trace", "strace", "lsof", "gdb", "lldb", "debuggerd"
